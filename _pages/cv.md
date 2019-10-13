@@ -11,49 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Vehicle Engineering, SouthWest University, 2012
+* M.S. in Information Engineering, The Chinese University of HongKong, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Aug. 2016 - Mar.2018: PHP and Pyhton Engineer at Technology Department of Jiayuan.com, Inc.
+* Aug. 2018 - Jul.2019: PHP Engineer at Technology Department of Youhaodongxi.com, Inc.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+
+# Languages
+
+- Chinese: Native Proficiency
+- English: Intermediate Proficiency
+
+* Japanese: Intermediate Proficiency
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- ##### [Research on Control Strategy of Intelligent Vehicle Autonomous Learning Based on Neural Network Algorithm](http://www.dpi-proceedings.com/index.php/dtcse/article/view/5613/5231)
+
+  Gui-Ke S, Xuan L E I, Wen-Jie M E I. Research on Control Strategy of Intelligent Vehicle Autonomous Learning Based on Neural Network Algorithm[J]. DEStech Transactions on Computer Science and Engineering, 2016 (aice-ncs).
+
+- ##### [The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear](https://www.hindawi.com/journals/mpe/2016/6347987/)
+
+  Mei W, Na J, Yang F, et al. The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear[J]. Mathematical Problems in Engineering, 2016, 2016.
+
