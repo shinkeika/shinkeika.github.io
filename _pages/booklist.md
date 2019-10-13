@@ -11,7 +11,7 @@ redirect_from:
 
 1. [《深度学习》](https://book.douban.com/subject/30425822/) [特伦斯·谢诺夫斯基（Terrence Sejnowski）](https://baike.baidu.com/item/特伦斯·谢诺夫斯基/23208651?fr=aladdin)
 
-2. [《数学之美》](https://book.douban.com/subject/30425822/)  [吴军](https://baike.baidu.com/item/%E5%90%B4%E5%86%9B/8125425)
+2. [《数学之美》](https://book.douban.com/subject/10750155/)  [吴军](https://baike.baidu.com/item/%E5%90%B4%E5%86%9B/8125425)
 
 3. [《沉默的大多数》](https://book.douban.com/subject/1054685/)  [王小波](https://baike.baidu.com/item/%E7%8E%8B%E5%B0%8F%E6%B3%A2/6673?fr=aladdin)
 
@@ -23,7 +23,7 @@ redirect_from:
 
 7. [《用地图看懂世界格局》](https://book.douban.com/subject/26968875/)  [王伟](https://book.douban.com/author/4535945/)
 
-8. [《房思琪的初恋乐园》](https://book.douban.com/subject/30425822/)  [林奕含](https://baike.baidu.com/item/%E6%9E%97%E5%A5%95%E5%90%AB/20723377?fr=aladdin)
+8. [《房思琪的初恋乐园》](https://book.douban.com/subject/27614904/)  [林奕含](https://baike.baidu.com/item/%E6%9E%97%E5%A5%95%E5%90%AB/20723377?fr=aladdin)
 
 9. [《从0到1》](https://book.douban.com/subject/26297606/)  [彼得·蒂尔](https://baike.baidu.com/item/%E5%BD%BC%E5%BE%97%C2%B7%E8%92%82%E5%B0%94/12589797?fr=aladdin)
 
