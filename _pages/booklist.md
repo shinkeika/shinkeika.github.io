@@ -27,7 +27,7 @@ redirect_from:
 
 9. [《从0到1》](https://book.douban.com/subject/26297606/)  [彼得·蒂尔](https://baike.baidu.com/item/%E5%BD%BC%E5%BE%97%C2%B7%E8%92%82%E5%B0%94/12589797?fr=aladdin)
 
-10. [《穿越计算机的迷雾》](https://book.douban.com/subject/5432475/)  [李忠]
+10. [《穿越计算机的迷雾》](https://book.douban.com/subject/5432475/)  [李忠](https://book.douban.com/subject/5432475/)
 
 12. [《深度学习》](https://book.douban.com/subject/27087503/)  [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/)
 
