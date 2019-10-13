@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Current projects and activities"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,3 +8,4 @@ redirect_from:
   - /about.html
 ---
 
+**Data analysis for Chinese Medicine** : using NLP and topic modeling to understand TCM  (supervisor [**Dah Ming Chiu**](http://personal.ie.cuhk.edu.hk/~dmchiu/))
