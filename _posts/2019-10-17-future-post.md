@@ -3,9 +3,9 @@ title: 'Keras 极简教程'
 date: 2019-10-17
 permalink: /posts/2019/10/blog-post-1/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - python
+  - 机器学习
+  - 框架使用
 ---
 
 Keras 极简教程 
