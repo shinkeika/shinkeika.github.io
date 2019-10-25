@@ -1,6 +1,6 @@
 ---
 title: 'Numpy pandas matplotlib学习笔记'
-date: 2010-10-25
+date: 2019-10-25
 permalink: /posts/2019/10/blog-post-6/
 tags:
   - numpy
