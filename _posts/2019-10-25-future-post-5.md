@@ -3896,7 +3896,7 @@ plt.show()
 
 
 
-![png](../images/output_237_1.png)
+![png](https://shinkeika.github.io/images/output_237_1.png)
 
 
 
@@ -3985,7 +3985,7 @@ plt.show()
 ```
 
 
-![png](../images/output_239_0.png)
+![png](https://shinkeika.github.io/images/output_239_0.png)
 
 
 
@@ -3997,7 +3997,7 @@ plt.show()
 ```
 
 
-![png](../images/output_240_0.png)
+![png](https://shinkeika.github.io/images/output_240_0.png)
 
 
 
@@ -4033,7 +4033,7 @@ plt.show()
 ```
 
 
-![png](../images/output_247_0.png)
+![png](https://shinkeika.github.io/images/output_247_0.png)
 
 
 #### figure的使用
@@ -4056,11 +4056,11 @@ plt.show()
 ```
 
 
-![png](../images/output_250_0.png)
+![png](https://shinkeika.github.io/images/output_250_0.png)
 
 
 
-![png](../images/output_250_1.png)
+![png](https://shinkeika.github.io/images/output_250_1.png)
 
 
 #### 修改坐标轴
@@ -4079,11 +4079,11 @@ plt.show()
 ```
 
 
-![png](../images/output_252_0.png)
+![png](https://shinkeika.github.io/images/output_252_0.png)
 
 
 
-![png](../images/output_252_1.png)
+![png](https://shinkeika.github.io/images/output_252_1.png)
 
 
 
@@ -4113,7 +4113,7 @@ plt.yticks([-2, -1.8, -1, 1.22, 3],
 
 
 
-![png](../images/output_253_1.png)
+![png](https://shinkeika.github.io/images/output_253_1.png)
 
 
 #### 设置坐标轴(位置)
@@ -4142,7 +4142,7 @@ ax.spines['left'].set_position(('data', 0))
 ```
 
 
-![png](../images/output_255_0.png)
+![png](https://shinkeika.github.io/images/output_255_0.png)
 
 
 #### 图例
@@ -4166,7 +4166,7 @@ plt.show()
 ```
 
 
-![png](../images/output_257_0.png)
+![png](https://shinkeika.github.io/images/output_257_0.png)
 
 
 #### 注解
@@ -4207,7 +4207,7 @@ plt.annotate(r'$2x+1=%s$' % y0, xy=(x0, y0), xycoords='data', xytext=(+30, -30),
 
 
 
-![png](../images/output_259_1.png)
+![png](https://shinkeika.github.io/images/output_259_1.png)
 
 
 
@@ -4243,7 +4243,7 @@ plt.show()
 ```
 
 
-![png](../images/output_260_0.png)
+![png](https://shinkeika.github.io/images/output_260_0.png)
 
 
 #### tick能见度
@@ -4272,7 +4272,7 @@ for label in ax.get_xticklabels() + ax.get_yticklabels():
 ```
 
 
-![png](../images/output_262_0.png)
+![png](https://shinkeika.github.io/images/output_262_0.png)
 
 
 #### 散点图plot
@@ -4293,7 +4293,7 @@ plt.show()
 ```
 
 
-![png](../images/output_264_0.png)
+![png](https://shinkeika.github.io/images/output_264_0.png)
 
 
 #### 柱状图
@@ -4322,7 +4322,7 @@ plt.show()
 ```
 
 
-![png](../images/output_266_0.png)
+![png](https://shinkeika.github.io/images/output_266_0.png)
 
 
 #### 等高线
@@ -4359,7 +4359,7 @@ plt.show()
 
 
 
-![png](../images/output_269_1.png)
+![png](https://shinkeika.github.io/images/output_269_1.png)
 
 
 #### 打印图像
@@ -4396,7 +4396,7 @@ plt.show()
 ```
 
 
-![png](../images/output_272_0.png)
+![png](https://shinkeika.github.io/images/output_272_0.png)
 
 
 #### 3D图像
@@ -4426,7 +4426,7 @@ plt.show()
 ```
 
 
-![png](../images/output_274_0.png)
+![png](https://shinkeika.github.io/images/output_274_0.png)
 
 
 #### subplot多个图
@@ -4453,7 +4453,7 @@ plt.show()
 ```
 
 
-![png](../images/output_276_0.png)
+![png](https://shinkeika.github.io/images/output_276_0.png)
 
 
 
@@ -4478,7 +4478,7 @@ plt.show()
 ```
 
 
-![png](../images/output_277_0.png)
+![png](https://shinkeika.github.io/images/output_277_0.png)
 
 
 #### 多个图
@@ -4506,7 +4506,7 @@ ax5 = plt.subplot2grid((3, 3), (2, 1))
 ```
 
 
-![png](../images/output_280_0.png)
+![png](https://shinkeika.github.io/images/output_280_0.png)
 
 
 
@@ -4523,7 +4523,7 @@ ax10 = plt.subplot(gs[-1, 1])
 ```
 
 
-![png](../images/output_281_0.png)
+![png](https://shinkeika.github.io/images/output_281_0.png)
 
 
 
@@ -4537,7 +4537,7 @@ plt.show()
 ```
 
 
-![png](../images/output_282_0.png)
+![png](https://shinkeika.github.io/images/output_282_0.png)
 
 
 #### 图中图
@@ -4583,7 +4583,7 @@ plt.show()
 ```
 
 
-![png](../images/output_285_0.png)
+![png](https://shinkeika.github.io/images/output_285_0.png)
 
 
 #### 次坐标轴
@@ -4611,7 +4611,7 @@ plt.show()
 ```
 
 
-![png](../images/output_287_0.png)
+![png](https://shinkeika.github.io/images/output_287_0.png)
 
 
 #### 动画
@@ -4650,6 +4650,6 @@ plt.show()
 
 
 
-![png](../images/output_289_1.png)
+![png](https://shinkeika.github.io/images/output_289_1.png)
 
 
