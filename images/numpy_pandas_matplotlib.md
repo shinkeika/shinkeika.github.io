@@ -1,18 +1,3 @@
----
-title: 'Numpy pandas matplotlib学习笔记'
-date: 2019-10-25
-permalink: /posts/2019/10/blog-post-6/
-tags:
-  - numpy
-  - pandas
-  - matplotlib
----
-
-Numpy pandas matplotlib学习笔记
-虽然简单，但是还是要全部过一遍
-目录为啥不显示呢？
-[TOC]
-
 ### numpy
 
 
@@ -4651,5 +4636,4 @@ plt.show()
 
 
 ![png](../images/output_289_1.png)
-
 
