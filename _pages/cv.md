@@ -36,3 +36,4 @@ Publications
 
   Mei W, Na J, Yang F, et al. The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear[J]. Mathematical Problems in Engineering, 2016, 2016.
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=800 height=800 src="https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2019-11-10/1573360148/main.svg"></iframe>
