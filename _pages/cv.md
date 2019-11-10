@@ -11,8 +11,8 @@ redirect_from:
 
 ### Education
 
-* B.S. in Vehicle Engineering, SouthWest University, 2012
-* M.S. in Information Engineering, The Chinese University of HongKong, 2019
+* B.S. in Vehicle Engineering, SouthWest University, 2012-2016
+* M.S. in Information Engineering, The Chinese University of HongKong, 2019-Current
 
 ### Work experience
 
