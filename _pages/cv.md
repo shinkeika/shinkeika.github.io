@@ -9,27 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-========
+### Education
 
 * B.S. in Vehicle Engineering, SouthWest University, 2012
 * M.S. in Information Engineering, The Chinese University of HongKong, 2019
 
-Work experience
-========
+### Work experience
 
 * Aug. 2016 - Mar.2018: PHP and Pyhton Engineer at Technology Department of Jiayuan.com, Inc.
 * Aug. 2018 - Jul.2019: PHP Engineer at Technology Department of Youhaodongxi.com, Inc.
 
-# Languages
+### Languages
 
 - Chinese: Native Proficiency
 - English: Intermediate Proficiency
 
-* Japanese: Intermediate Proficiency
+- Japanese: Intermediate Proficiency
 
-Publications
-========
+### Publications
 
 - [Research on Control Strategy of Intelligent Vehicle Autonomous Learning Based on Neural Network Algorithm](http://www.dpi-proceedings.com/index.php/dtcse/article/view/5613/5231)
 
@@ -40,8 +37,7 @@ Publications
   Mei W, Na J, Yang F, et al. The Optimal Design Method and Standardized Mathematical Model of Tooth Profile Modification of Spur Gear[J]. Mathematical Problems in Engineering, 2016, 2016.
 
 
-Knowledge Graph
-========
+### Knowledge Graph
 
 ![知识体系](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2019-11-10/1573360148/main.svg)
 
