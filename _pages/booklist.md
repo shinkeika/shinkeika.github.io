@@ -21,6 +21,7 @@ redirect_from:
 	3. [《穿越计算机的迷雾》](https://book.douban.com/subject/5432475/)  [李忠](https://book.douban.com/subject/5432475/)
 	4. [《深度学习》](https://book.douban.com/subject/27087503/)  [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/)
 	5. [《统计学关我什么事》](https://book.douban.com/subject/30229508/)  [小岛宽之](https://baike.baidu.com/item/%E5%B0%8F%E5%B2%9B%E5%AE%BD%E4%B9%8B)
+	6. [《自然语言处理入门》](https://book.douban.com/subject/30229508/)  [何晗](https://twitter.com/hankcs)
 
 
 - 心理学
@@ -50,6 +51,7 @@ redirect_from:
 - 小说
 	1. [《房思琪的初恋乐园》](https://book.douban.com/subject/27614904/)  [林奕含](https://baike.baidu.com/item/%E6%9E%97%E5%A5%95%E5%90%AB/20723377?fr=aladdin)
 	2. [《美丽新世界》](https://book.douban.com/subject/1321789/)  [阿道司·赫胥黎](https://baike.baidu.com/item/%E9%98%BF%E9%81%93%E5%8F%B8%C2%B7%E8%B5%AB%E8%83%A5%E9%BB%8E/5192691)
+
 
 
 
