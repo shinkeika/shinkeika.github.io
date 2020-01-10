@@ -16,7 +16,7 @@ redirect_from:
 
 ### Work experience
 
-* Aug. 2016 - Mar.2018: PHP and Pyhton Engineer at Technology Department of Jiayuan.com, Inc.
+* Jul. 2017 - Mar.2018: PHP and Pyhton Engineer at Technology Department of Jiayuan.com, Inc.
 * Aug. 2018 - Jul.2019: PHP Engineer at Technology Department of Youhaodongxi.com, Inc.
 
 ### Languages
