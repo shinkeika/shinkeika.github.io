@@ -39,6 +39,6 @@ redirect_from:
 
 ### Knowledge Graph
 
-[![知识体系](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523566/main.svg)](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523566/main.svg)
+[![知识体系](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523827/main.svg)](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523827/main.svg)
 
-[See all](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523566/main.svg)
+[See all](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/viewer/self/1498817/share/2020-4-22/1587523827/main.svg)
