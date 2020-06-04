@@ -1,0 +1,162 @@
+#### Gin 框架中的context.Next()的小注意事项
+
+
+
+#### 起因：
+
+​	微信服务端使用了两个中间件
+
+- ```go
+  func ErrorMiddlerware() gin.HandlerFunc {
+  	return func(c *gin.Context) {
+  		defer func() {
+  			if err := recover(); err != nil {
+                  	//捕获错误
+  					c.JSON("whatever")
+  					return
+  				}
+  			}
+  		}()
+  		c.Next()
+  	}
+  ```
+
+- ```go
+  func AuthMiddlerware() gin.HandlerFunc {
+  	return func(c *gin.Context) {
+  		// 登录校验
+          // 会有panic错误
+  		c.Next()
+  	}
+  }
+  ```
+
+  `ErrorMiddlerware` 会接收并处理到所有`panic`的错误，包括`AuthMiddlerware`或者`业务逻辑`中的
+
+  `AuthMiddlerwarE` 会做登录校验
+
+
+
+这样写看起来是没有问题，但是实际项目中，
+
+##### 在AuthMiddlerware抛出的panic之后 业务逻辑还会继续执行！！！
+
+其实上述逻辑 用一个代码块来表示就是
+
+```go
+func main() {
+	gintest()
+}
+func gintest()  {
+	ge:= gin.New()
+	ge.Use(func(ctx *gin.Context) {
+		defer func() {
+			err:= recover()
+			if err != nil{
+				fmt.Println("recover 执行 打印",err)
+			}
+		}()
+		ctx.Next()
+	},func(ctx *gin.Context) {
+		fmt.Println("第二个函数开始")
+		panic("报个错")
+		fmt.Println("第二个执行结束")
+		ctx.Next()
+	})
+
+	ge.GET("test", func(ctx *gin.Context) {
+		fmt.Println("第三个方法执行")
+	})
+	ge.Run(":8888")
+}
+
+>第二个函数开始
+>recover 执行 打印 报个错
+>第三个方法执行
+```
+
+结果显而易见第三个方法神奇的执行了。
+
+
+
+`解决方案`：在`ErrorMiddlerware`中`context.abort()`
+
+但是按照常理 `panic` 被 `recover`之后 程序就已经结束了，为什么还需要加`context.abort()`呢????????
+
+找了很久之后，看了看Next()方法的注释，明白了。
+
+
+
+![image-20200529154744753](C:\Users\shenguike\AppData\Roaming\Typora\typora-user-images\image-20200529154744753.png)
+
+##### 人家清清楚楚的写着 (`handlers`复数)，也就是说通过`for`循环的方式把中间件全部都执行
+
+`错误1`：也就是说第二个中间件没必要使用`Next()`方法.
+
+
+
+##### 那么为什么还要加`content.abort()`
+
+我们回顾一下`panic`和`recover`
+
+`panic`抛出错误，`recover`执行收尾工作，那么本次请求就结束了。这个没毛病，但是考虑以下情况
+
+```go
+func main() {
+	fmt.Println("test ...1...")
+	test()
+	fmt.Println("test ...2...")
+}
+
+func test() {
+	defer func() {
+		recover()
+	}()
+	fmt.Println("test.call panicTest ...1...")
+	panicTest()
+	fmt.Println("test.call panicTest ...2...")
+}
+
+func panicTest() {
+	fmt.Println("panicTest ...1...")
+	panic("panicTest panic")
+	fmt.Println("panicTest ...2...")
+}
+
+test ...1...
+test.call panicTest ...1...
+panicTest ...1...
+test ...2...
+```
+
+`panic`确实被`recover`处理了。但是`main`函数会以为`test`函数什么也没发生。
+
+然后
+
+`test ...2... `被打印了
+
+也就是说`panic`和`recover`只会结束本层级的调用。上一层级并没有结束。
+
+放到`Gin`框架中，也就是说一定存在一个所谓的`main`函数，不然`panic`和`recover`就结束了本次请求,也就不会存在业务代码被执行的情况。
+
+那么这个第一个`Next()`函数是在哪里执行呢？
+
+
+
+###### 答案是在handleHTTPRequest()这个方法，可以看到 确实调用了Next()方法，也就是那个所谓的Main函数。这个函数就是每个请求进来会调用的,从pool池拿一个Context对象，然后清空，最后调用Handler，然后把Context放回pool中。
+
+![image-20200529164939344](C:\Users\shenguike\AppData\Roaming\Typora\typora-user-images\image-20200529164939344.png)
+
+
+
+`错误2`:第一个ErrorMiddlerware()需要使用context.abort()方法。
+
+使用abort()方法的原因就是上一层级并不知道你这里发生过panic，所以你要告诉他，我这里出过错。
+
+
+
+##### 那么我们考虑下`Gin`框架使用`for`循环的方式执行执行`中间件`带来的利弊吧
+
+> 利：只需要在第一层的中间件使用`Next()`即可，便可以依次执行以后的中间件
+
+> 弊：如果你在第一层的中间件有`recover`你需要记得向上级报备。也就是使用`context.abort()`
